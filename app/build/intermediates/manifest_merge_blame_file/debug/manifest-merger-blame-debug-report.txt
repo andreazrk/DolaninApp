@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.pemesanantiket"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml
+10
+11    <!-- Include required permissions for Google Maps API to run. -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:23:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:24:5-67
+13-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:24:22-64
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:26:5-28:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:27:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:28:9-32
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:30:5-34:15
+20
+21        <!-- Needs to be explicitly declared on Android R+ -->
+22        <package android:name="com.google.android.apps.maps" />
+22-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:33:18-61
+23    </queries>
+24
+25    <application
+25-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:6:5-42:19
+26        android:allowBackup="false"
+26-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:7:9-36
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.6.0] C:\Users\andre\.gradle\caches\transforms-3\f3a562d770aa89c2dcd4798f0c053994\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:8:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:9:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:10:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:11:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.PemesananTiket"
+34-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:12:9-52
+35        android:usesCleartextTraffic="true" >
+35-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:13:9-44
+36        <activity
+36-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:15:9-17:39
+37            android:name="com.example.pemesanantiket.view.history.HistoryActivity"
+37-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:16:13-83
+38            android:exported="true" />
+38-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:17:13-36
+39        <activity
+39-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:18:9-22:58
+40            android:name="com.example.pemesanantiket.view.input.DataPesawatActivity"
+40-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:19:13-85
+41            android:configChanges="keyboardHidden|orientation|screenSize"
+41-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:20:13-74
+42            android:exported="true"
+42-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:21:13-36
+43            android:windowSoftInputMode="adjustResize" />
+43-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:22:13-55
+44        <activity
+44-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:23:9-27:58
+45            android:name="com.example.pemesanantiket.view.input.DataKeretaActivity"
+45-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:24:13-84
+46            android:configChanges="keyboardHidden|orientation|screenSize"
+46-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:25:13-74
+47            android:exported="true"
+47-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:26:13-36
+48            android:windowSoftInputMode="adjustResize" />
+48-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:27:13-55
+49        <activity
+49-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:28:9-32:58
+50            android:name="com.example.pemesanantiket.view.input.DataKapalActivity"
+50-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:29:13-83
+51            android:configChanges="keyboardHidden|orientation|screenSize"
+51-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:30:13-74
+52            android:exported="true"
+52-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:31:13-36
+53            android:windowSoftInputMode="adjustResize" />
+53-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:32:13-55
+54        <activity
+54-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:33:9-41:20
+55            android:name="com.example.pemesanantiket.view.main.MainActivity"
+55-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:34:13-77
+56            android:exported="true" >
+56-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:35:13-36
+57            <intent-filter>
+57-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:36:13-40:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:37:17-69
+58-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:37:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:39:17-77
+60-->C:\Users\andre\AndroidStudioProjects\DolaninProject\app\src\main\AndroidManifest.xml:39:27-74
+61            </intent-filter>
+62        </activity>
+63        <!-- Needs to be explicitly declared on P+ -->
+64        <uses-library
+64-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:39:9-41:40
+65            android:name="org.apache.http.legacy"
+65-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:40:13-50
+66            android:required="false" />
+66-->[com.google.android.gms:play-services-maps:18.0.0] C:\Users\andre\.gradle\caches\transforms-3\d71804cc66b51c1ac653ec4c2dcb7d9b\transformed\jetified-play-services-maps-18.0.0\AndroidManifest.xml:41:13-37
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\andre\.gradle\caches\transforms-3\8309d3bae1eece344797f5edd98a0e79\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\andre\.gradle\caches\transforms-3\8309d3bae1eece344797f5edd98a0e79\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\andre\.gradle\caches\transforms-3\8309d3bae1eece344797f5edd98a0e79\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\andre\.gradle\caches\transforms-3\8309d3bae1eece344797f5edd98a0e79\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+72
+73        <meta-data
+73-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\andre\.gradle\caches\transforms-3\f901b4d378c896699d5072d7dc9ff383\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+74            android:name="com.google.android.gms.version"
+74-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\andre\.gradle\caches\transforms-3\f901b4d378c896699d5072d7dc9ff383\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+75            android:value="@integer/google_play_services_version" />
+75-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\andre\.gradle\caches\transforms-3\f901b4d378c896699d5072d7dc9ff383\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+76
+77        <service
+77-->[androidx.room:room-runtime:2.3.0] C:\Users\andre\.gradle\caches\transforms-3\74345e31d18d357009851beaf2a6b44e\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+78            android:name="androidx.room.MultiInstanceInvalidationService"
+78-->[androidx.room:room-runtime:2.3.0] C:\Users\andre\.gradle\caches\transforms-3\74345e31d18d357009851beaf2a6b44e\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+79            android:directBootAware="true"
+79-->[androidx.room:room-runtime:2.3.0] C:\Users\andre\.gradle\caches\transforms-3\74345e31d18d357009851beaf2a6b44e\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+80            android:exported="false" />
+80-->[androidx.room:room-runtime:2.3.0] C:\Users\andre\.gradle\caches\transforms-3\74345e31d18d357009851beaf2a6b44e\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+81
+82        <provider
+82-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\andre\.gradle\caches\transforms-3\c5546b4bd4af2bd603c29d16c21348c2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+83            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\andre\.gradle\caches\transforms-3\c5546b4bd4af2bd603c29d16c21348c2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+84            android:authorities="com.example.pemesanantiket.lifecycle-process"
+84-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\andre\.gradle\caches\transforms-3\c5546b4bd4af2bd603c29d16c21348c2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+85            android:exported="false"
+85-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\andre\.gradle\caches\transforms-3\c5546b4bd4af2bd603c29d16c21348c2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+86            android:multiprocess="true" />
+86-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\andre\.gradle\caches\transforms-3\c5546b4bd4af2bd603c29d16c21348c2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+87    </application>
+88
+89</manifest>
